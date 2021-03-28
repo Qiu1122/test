@@ -8,5 +8,7 @@ git 查看仓库当前的状态，显示有变更的文件: git status <>
 git 比较文件的不同，即暂存区和工作区的差异：git diff <>
 git 回退版本: git reset <>
 git 查看历史记录：git log / git log --pretty=oneline
+git 版本回退：git reset <> <> (说明：git reset --hard HEAD^回退上一个版本，上上个版本改HEAD^^,回退100版本前改HEAD~100)
+git 查看版本号：git reflog
 
 

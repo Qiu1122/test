@@ -3,12 +3,13 @@
 git 的配置命令：git config --global <> <>
 git 初始化仓库：git init <>
 git 添加文件到暂存区：git add <>
-git 将暂存区内容添加到仓库中：git commit <>
-git 查看仓库当前的状态，显示有变更的文件: git status <>
+git 将暂存区内容添加到仓库中：git commit -m <>
+git 查看仓库当前的状态，显示有变更的文件: git status 
 git 比较文件的不同，即暂存区和工作区的差异：git diff <>
-git 回退版本: git reset <>
+git 查看文本信息：cat <>
 git 查看历史记录：git log / git log --pretty=oneline
 git 版本回退：git reset <> <> (说明：git reset --hard HEAD^回退上一个版本，上上个版本改HEAD^^,回退100版本前改HEAD~100)
 git 查看版本号：git reflog
+补充：git commit -m <>可以一次性提交多个文件
 
 
